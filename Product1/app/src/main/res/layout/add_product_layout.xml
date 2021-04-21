@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/enter_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/brown_border"
+        android:hint="Tên Sản Phẩm"
+
+        android:inputType="text"
+        android:maxLines="1"
+        android:textColor="@color/colorBlack"
+
+        android:textColorHint="@color/colorBorder" />
+
+
+    <EditText
+        android:id="@+id/enter_Price"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Giá"
+        android:textColorHint="@color/colorBorder"
+
+        android:inputType="number"
+        android:background="@drawable/brown_border"
+        android:maxLines="1"
+
+        android:textColor="@color/colorBlack"
+        />
+
+    <EditText
+        android:id="@+id/enter_nameCus"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Mô Tả"
+        android:textColorHint="@color/colorBorder"
+
+
+        android:background="@drawable/brown_border"
+        android:maxLines="1"
+
+        android:textColor="@color/colorBlack"
+        />
+
+    <EditText
+        android:id="@+id/enter_Address"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Thành phần dinh dưỡng"
+        android:textColorHint="@color/colorBorder"
+
+
+        android:background="@drawable/brown_border"
+        android:maxLines="1"
+
+        android:textColor="@color/colorBlack"
+        />
+
+    <EditText
+        android:id="@+id/enter_Phone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Khuyến mãi"
+        android:textColorHint="@color/colorBorder"
+        android:maxLength="11"
+        android:inputType="number"
+        android:background="@drawable/brown_border"
+        android:maxLines="1"
+
+        android:textColor="@color/colorBlack"
+        />
+
+
+
+</LinearLayout>

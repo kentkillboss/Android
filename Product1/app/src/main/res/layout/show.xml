@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="15dp"
+    android:stretchColumns="*">
+
+    <TextView
+        android:id="@+id/thongtin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#E69595"
+        android:gravity="center"
+        android:text="THÔNG TIN CHI TIẾT"
+
+        android:textSize="25dp" />
+
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/tensp1"
+            android:textStyle="bold"
+            android:layout_width="71dp"
+            android:text="Tên sản phẩm:"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/txtnameSP"
+            android:layout_span="4"
+            android:gravity="center_horizontal"
+            android:textSize="25dp" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:textStyle="bold"
+            android:layout_width="100dp"
+            android:text="Giá:"
+            android:textSize="20dp" />
+        <TextView
+            android:id="@+id/txtPrice"
+            android:gravity="center_horizontal"
+            android:layout_span="4"
+            android:textSize="25dp"
+            />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:textStyle="bold"
+            android:layout_width="wrap_content"
+            android:text="Mô Tả:"
+            android:textSize="20dp" />
+        <TextView
+            android:id="@+id/txtNameCus"
+            android:gravity="center_horizontal"
+            android:layout_span="4"
+            android:textSize="25dp"
+            />
+    </TableRow>
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:textStyle="bold"
+            android:layout_width="100dp"
+            android:text="Khuyến Mãi:"
+            android:textSize="20dp" />
+        <TextView
+            android:id="@+id/txtPhone"
+            android:gravity="center_horizontal"
+            android:layout_span="4"
+            android:textSize="25dp"
+            />
+    </TableRow>
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:textStyle="bold"
+            android:layout_width="100dp"
+            android:text="Thành Phần Dinh Dưỡng:"
+            android:textSize="20dp" />
+        <TextView
+            android:id="@+id/txtnTPDD"
+            android:gravity="center_horizontal"
+            android:layout_span="4"
+            android:textSize="25dp"
+            />
+    </TableRow>
+
+    <TableLayout
+        android:paddingTop="20dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#E69595"
+            android:gravity="center"
+            android:text="Nhập Thông Tin Khách Hàng"
+            android:textSize="25dp" />
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_width="174dp"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:layout_height="wrap_content"
+                android:text="Tên Khách Hàng: " />
+
+            <EditText
+                android:id="@+id/edtTenKH"
+                android:layout_width="203dp"
+                android:layout_height="wrap_content" />
+        </TableRow>
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_width="119dp"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:layout_height="wrap_content"
+                android:text="SĐT: " />
+
+            <EditText
+                android:id="@+id/edtSDT"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+        </TableRow>
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:text="Địa Chỉ: "/>
+
+            <EditText
+                android:id="@+id/edtDC"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+        </TableRow>
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:id="@+id/btnDate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left|fill_vertical"
+
+                android:text="Ngày giao:"
+                android:textSize="18sp" />
+
+            <EditText
+                android:id="@+id/txtDate"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+        </TableRow>
+
+
+    </TableLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:gravity="center">
+
+        <Button
+
+            android:id="@+id/btnThoat"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="Thoát" />
+
+        <Button
+            android:layout_span="4"
+            android:id="@+id/btnGiaohang"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="Giao hàng" />
+    </LinearLayout>
+
+
+
+</TableLayout>
